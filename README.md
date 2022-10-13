@@ -12,4 +12,4 @@ The application provides users the ability to create an account, log in or out o
 
 The homepage features all available repositories to rate. Each repository can be viewed, and each view contains a link to the repository on GitHub, as well as all the reviews it has. 
 
-The user also has an option to view their created reviews.
+The user also has an option to view their created reviews, where they can delete each review or show the repository the review is located at.
