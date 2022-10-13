@@ -8,4 +8,8 @@ The backend was made and provided by Kalle Ilves from University of Helsinki. It
 Due to the registration fee, unfortunately I was not able to publish the app to Google Play.
 
 # Usage
-The application provides users the ability to create an account, log in or out of it, and rate and review repositories. The homepage features all available repositories to rate. Each repository can be viewed, and each view contains a link to the repository on GitHub, as well as all the reviews it has. The user also has an option to view their created reviews.
+The application provides users the ability to create an account, log in or out of it, and rate and review repositories. 
+
+The homepage features all available repositories to rate. Each repository can be viewed, and each view contains a link to the repository on GitHub, as well as all the reviews it has. 
+
+The user also has an option to view their created reviews.
