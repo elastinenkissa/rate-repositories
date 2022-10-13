@@ -1,5 +1,5 @@
-# Repository Rating
-Repository Rating is a small mobile app created using React Native for the frontend and GraphQL and SQLite for the backend. 
+# Rate Repositories
+Rate Repositories is a small mobile app created using React Native for the frontend and GraphQL and SQLite for the backend. 
 
 The frontend was made from scratch, utilizing Apollo-Client for communicating with the server. It features a few premade components from UI libraries such as React Native Paper, while the rest are handmade custom components. 
 
