@@ -18,11 +18,11 @@ Due to my inability to upload the app to Google Play Store (registration fee), t
 
 1. Download this repository to your desktop and extract it.
 2. Navigate to 'server' folder
-2.1 Run the command # `npm install`
-2.2 Run the command # `npm start`
+2.1 Run the command `npm install`
+2.2 Run the command `npm start`
 3. Navigate to 'client' folder in a different window
-3.1 Run the command # `npm install`
-3.2 Run the command # `npm start`
+3.1 Run the command `npm install`
+3.2 Run the command `npm start`
 4. In your Expo Go app, manually enter the URL printed in the terminal in the 'client' folder, or scan the printed QR code to run your app on your mobile phone
 
 It is not recommended to use web view of the app, as there are a lot of compatibility issues with it.
