@@ -18,12 +18,14 @@ Due to my inability to upload the app to Google Play Store (registration fee), t
 
 1. Download this repository to your desktop and extract it.
 2. Navigate to 'server' folder
-3. Run the command `npm install`
-4. Run the command `npm start`
-5. Navigate to 'client' folder in a different window
-6. Run the command `npm install`
-7. Run the command `npm start`
-8. In your Expo Go app, manually enter the URL printed to the terminal in the 'client' folder, or scan the printed QR code to run the app on your mobile phone
+3. Change the name of the file `.env.template` to `.env` and rename the variables accordingly
+4. Run the command `npm install`
+5. Run the command `npm start`
+6. Navigate to 'client' folder in a different window
+7. Change the name of the file `.env.template` to `.env` and replace `<YOUR_IP_HERE>` with the IP the server is running on
+8. Run the command `npm install`
+9. Run the command `npm start`
+10. In your Expo Go app, manually enter the URL printed to the terminal in the 'client' folder, or scan the printed QR code to run the app on your mobile phone
 
 It is not recommended to use web view of the app, as there are a lot of compatibility issues with it.
 
