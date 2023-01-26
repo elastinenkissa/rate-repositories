@@ -18,7 +18,7 @@ Due to my inability to upload the app to Google Play Store (registration fee), t
 
 1. Download this repository to your desktop and extract it.
 2. Navigate to 'server' folder
-3. Change the name of the file `.env.template` to `.env` and rename the variables accordingly
+3. Follow <a href="https://github.com/fullstack-hy2020/rate-repository-api#-authentication'>this guide</a> to properly set up the server
 4. Run the command `npm install`
 5. Run the command `npm start`
 6. Navigate to 'client' folder in a different window
