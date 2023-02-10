@@ -2,7 +2,7 @@ import { Pressable, StyleSheet, View } from 'react-native';
 import theme from '../theme';
 import FormikTextInput from './FormikTextInput';
 import TextCard from './TextCard';
-
+ 
 const NewReviewForm = (props) => {
     const styles = StyleSheet.create({
         button: {

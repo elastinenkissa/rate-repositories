@@ -1,7 +1,7 @@
 import { gql } from 'apollo-server';
 import { get } from 'lodash';
 import * as yup from 'yup';
-
+ 
 import githubClient from '../../utils/githubClient';
 import Review from '../../models/Review';
 

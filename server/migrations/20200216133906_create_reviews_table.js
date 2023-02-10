@@ -17,7 +17,7 @@ exports.up = function(knex) {
     table.index(['user_id', 'repository_id']);
   });
 };
-
+ 
 exports.down = function(knex) {
   return knex.schema.dropTableIfExists('reviews');
 };

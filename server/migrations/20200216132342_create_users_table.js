@@ -5,7 +5,7 @@ exports.up = function(knex) {
     table.text('password');
     table.timestamp('created_at');
     table.timestamp('updated_at');
-
+ 
     table.index('username');
   });
 };

@@ -5,7 +5,7 @@ export const typeDefs = gql`
     cursor: String!
     node: Review!
   }
-
+ 
   type ReviewConnection {
     totalCount: Int!
     pageInfo: PageInfo!

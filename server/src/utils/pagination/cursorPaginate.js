@@ -5,7 +5,7 @@ import reverseOrderBy from './reverseOrderBy';
 import serializeCursor from './serializeCursor';
 import parseCursor from './parseCursor';
 import cursorWhere from './cursorWhere';
-
+ 
 const getValidLimitOrFail = ({ first, last }) => {
   const limit = isNumber(first) ? first : isNumber(last) ? last : 30;
 

@@ -5,7 +5,7 @@ exports.up = function(knex) {
     table.text('owner_name');
     table.timestamp('created_at');
     table.timestamp('updated_at');
-
+ 
     table.index(['owner_name', 'name']);
   });
 };

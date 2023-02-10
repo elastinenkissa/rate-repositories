@@ -17,3 +17,4 @@ const TextCard = ({ style, ...props }) => {
 };
 
 export default TextCard;
+ 

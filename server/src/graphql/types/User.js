@@ -2,7 +2,7 @@ import { gql } from 'apollo-server';
 import * as yup from 'yup';
 
 import Review from '../../models/Review';
-
+ 
 export const typeDefs = gql`
   type User {
     id: ID!

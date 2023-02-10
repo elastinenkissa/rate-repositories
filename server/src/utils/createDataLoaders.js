@@ -6,7 +6,7 @@ import Review from '../models/Review';
 import User from '../models/User';
 
 const jsonCacheKeyFn = value => JSON.stringify(value);
-
+ 
 const createModelLoader = Model =>
   new DataLoader(
     async ids => {

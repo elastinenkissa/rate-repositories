@@ -1,7 +1,7 @@
 import { Text as NativeText, StyleSheet, Platform } from 'react-native';
 
 import theme from '../../theme';
-
+ 
 const Text = ({ style, ...props }) => {
     const styles = StyleSheet.create({
         text: {

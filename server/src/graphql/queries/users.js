@@ -1,7 +1,7 @@
 import { gql } from 'apollo-server';
 import * as yup from 'yup';
 import User from '../../models/User';
-
+ 
 export const typeDefs = gql`
   extend type Query {
     """

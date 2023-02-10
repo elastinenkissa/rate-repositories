@@ -5,7 +5,7 @@ export const typeDefs = gql`
     cursor: String!
     node: User!
   }
-
+ 
   type UserConnection {
     totalCount: Int!
     pageInfo: PageInfo!

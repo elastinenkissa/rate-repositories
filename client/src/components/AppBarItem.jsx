@@ -14,5 +14,5 @@ const AppBarItem = (props) => {
         </View>
     );
 };
-
+ 
 export default AppBarItem;

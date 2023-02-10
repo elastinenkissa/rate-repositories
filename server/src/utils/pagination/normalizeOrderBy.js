@@ -4,7 +4,7 @@ const normalizeOrderByItem = item => {
   if (isString(item)) {
     return { column: item, order: 'asc' };
   }
-
+ 
   if (isObject(item) && isString(item.column)) {
     const { column, order = 'asc' } = item;
 

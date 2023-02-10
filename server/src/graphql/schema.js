@@ -1,6 +1,6 @@
 import { gql } from 'apollo-server';
 import { merge } from 'lodash';
-
+ 
 import Repository from './types/Repository';
 import repositoryQuery from './queries/repository';
 import User from './types/User';

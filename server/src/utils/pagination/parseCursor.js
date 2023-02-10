@@ -9,5 +9,5 @@ const parseCursor = cursor => {
     return null;
   }
 };
-
+ 
 export default parseCursor;

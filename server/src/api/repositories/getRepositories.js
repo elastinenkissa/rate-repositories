@@ -2,7 +2,7 @@ import { get } from 'lodash';
 
 import githubClient from '../../utils/githubClient';
 import Repository from '../../models/Repository';
-
+ 
 const getRepositoryPayload = (
   repository,
   githubRepository,

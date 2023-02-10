@@ -5,7 +5,7 @@ const theme = {
         primary: '#0366d6',
         error: '#D8000C',
         errorBackground: '#FFBABA',
-    },
+    }, 
     fontSizes: {
         body: 14,
         subheading: 16,

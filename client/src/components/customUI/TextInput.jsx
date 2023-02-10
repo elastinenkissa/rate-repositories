@@ -6,7 +6,7 @@ const TextInput = ({ style, ...props }) => {
             border: 'solid'
         }
     });
-
+ 
     const textInputStyle = [style, styles.default];
 
     return <NativeTextInput style={textInputStyle} {...props} />;

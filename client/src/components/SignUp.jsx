@@ -34,7 +34,7 @@ const SignUp = () => {
         try {
             await signUp({ username, password });
         } catch (error) {
-            console.log(error);
+            console.log(error); 
         }
     };
 

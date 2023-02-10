@@ -4,7 +4,7 @@ import { useField } from 'formik';
 import TextInput from './customUI/TextInput';
 import Text from './customUI/Text';
 import theme from '../theme';
-
+ 
 const FormikTextInput = (props) => {
     const [field, meta, helpers] = useField(props.name);
     const showError = meta.touched && meta.error;

@@ -36,4 +36,4 @@ const SortFilter = (props) => {
     );
 };
 
-export default SortFilter;
+export default SortFilter; 

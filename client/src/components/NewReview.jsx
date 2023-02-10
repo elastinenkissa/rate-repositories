@@ -6,7 +6,7 @@ import theme from '../theme';
 import { useMutation } from '@apollo/client';
 import { NEW_REVIEW } from '../graphql/mutations';
 import { useNavigate } from 'react-router-native';
-
+ 
 const NewReview = () => {
     const [createReview] = useMutation(NEW_REVIEW);
     const redirect = useNavigate();

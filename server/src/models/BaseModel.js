@@ -7,7 +7,7 @@ export class BaseQueryBuilder extends QueryBuilder {
     return cursorPaginate(this, options);
   }
 }
-
+ 
 export class BaseModel extends Model {
   static get useLimitInFirst() {
     return true;

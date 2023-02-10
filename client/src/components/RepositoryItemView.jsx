@@ -9,7 +9,7 @@ import ReviewItem from './ReviewItem';
 const RepositoryItemView = () => {
     const { data, loading, fetchMore } = useRepository({ first: 5 });
     const reviews = data?.repository.reviews.edges.map((edge) => edge.node);
-
+ 
     if (loading) return <Loading />;
 
     const endReachedHandler = () => {

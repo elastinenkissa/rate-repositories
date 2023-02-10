@@ -4,7 +4,7 @@ class AuthStorage {
     constructor(namespace = 'auth') {
         this.namespace = namespace;
     }
-
+ 
     async getAccessToken() {
         const token = await AsyncStorage.getItem(`${this.namespace}:token`);
         return JSON.parse(token);

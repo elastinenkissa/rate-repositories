@@ -5,7 +5,7 @@ import Text from './customUI/Text';
 import StatCard from './StatCard';
 import * as Linking from 'expo-linking';
 import TextCard from './TextCard';
-
+ 
 const RepositoryItem = (props) => {
     const styles = StyleSheet.create({
         container: {

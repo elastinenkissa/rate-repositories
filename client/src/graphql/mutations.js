@@ -6,7 +6,7 @@ export const LOGIN = gql`
             accessToken
         }
     }
-`;
+`; 
 
 export const NEW_REVIEW = gql`
     mutation createReview($review: CreateReviewInput) {

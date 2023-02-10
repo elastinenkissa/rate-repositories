@@ -7,7 +7,7 @@ import AppBarItem from './AppBarItem';
 import { useQuery } from '@apollo/client';
 import { GET_LOGGED_USER } from '../graphql/queries';
 import useSignOut from '../hooks/useSignOut';
-
+ 
 const styles = StyleSheet.create({
     container: {
         paddingTop: Constants.statusBarHeight,

@@ -7,7 +7,7 @@ export const GET_REPOSITORIES = gql`
         $searchKeyword: String
         $after: String
         $first: Int
-    ) {
+    ) { 
         repositories(
             orderBy: $orderBy
             orderDirection: $orderDirection

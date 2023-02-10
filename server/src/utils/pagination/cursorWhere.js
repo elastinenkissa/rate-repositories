@@ -2,7 +2,7 @@ const recursiveCursorWhere = (builder, comparisons, composites) => {
   const comparison = comparisons[0];
   composites = [comparison, ...composites];
   const op = comparison.order === 'asc' ? '>' : '<';
-
+ 
   builder.andWhere(function() {
     this.where(comparison.column, op, comparison.value);
 

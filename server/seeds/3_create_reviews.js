@@ -1,5 +1,5 @@
 const oneHour = 1000 * 60 * 60;
-
+ 
 const createDateColumns = date => ({
   created_at: date,
   updated_at: date,

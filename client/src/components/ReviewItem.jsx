@@ -36,7 +36,7 @@ const ReviewItem = (props) => {
             height: dimensionsValue,
             width: dimensionsValue,
             justifyContent: 'center',
-        },
+        }, 
         details: {
             flexDirection: 'column',
         },

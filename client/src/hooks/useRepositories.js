@@ -6,7 +6,7 @@ const useRepositories = (variables) => {
         variables,
         fetchPolicy: 'cache-and-network',
     });
-
+ 
     const handleFetchMore = () => {
         const canFetchMore =
             !loading && data?.repositories.pageInfo.hasNextPage;
@@ -32,3 +32,4 @@ const useRepositories = (variables) => {
 };
 
 export default useRepositories;
+ 

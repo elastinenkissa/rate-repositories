@@ -1,5 +1,5 @@
 import 'dotenv/config';
-
+ 
 export default {
     name: 'rate-repository-app',
     slug: 'rate-repository-app',

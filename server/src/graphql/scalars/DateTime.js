@@ -1,7 +1,7 @@
 import { GraphQLScalarType, Kind } from 'graphql';
 import { gql } from 'apollo-server';
 import { isValid, isDate } from 'date-fns';
-
+ 
 const isValidDateTime = value => {
   const isSerializable =
     isDate(value) || typeof value === 'string' || typeof value === 'number';

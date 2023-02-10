@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 import Text from './Text';
-
+ 
 const Heading = (props) => {
     const styles = StyleSheet.create({
         container: {

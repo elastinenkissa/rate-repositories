@@ -8,7 +8,7 @@ const useRepository = (variables) => {
         variables: { id, ...variables },
         fetchPolicy: 'cache-and-network',
     });
-
+ 
     const handleFetchMore = () => {
         const canFetchMore =
             !loading && data?.repository.reviews.pageInfo.hasNextPage;
@@ -23,7 +23,7 @@ const useRepository = (variables) => {
                 ...variables,
             },
         });
-    };
+    }; 
 
     return {
         data,

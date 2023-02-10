@@ -5,7 +5,7 @@ import signJwt from './signJwt';
 import verifyJwt from './verifyJwt';
 
 const subject = 'accessToken';
-
+ 
 class AuthService {
   constructor({ accessToken, dataLoaders }) {
     this.accessToken = accessToken;
