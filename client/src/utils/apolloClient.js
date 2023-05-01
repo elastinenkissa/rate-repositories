@@ -8,6 +8,8 @@ const httpLink = createHttpLink({
     uri,
 });
 
+console.log(httpLink)
+
 const cache = new InMemoryCache({
     typePolicies: {
         Query: {
