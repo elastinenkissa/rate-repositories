@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import { relayStylePagination } from '@apollo/client/utilities';
 
-const uri = 'http://192.168.0.14:4000/graphql'
+const uri = 'http://192.168.0.14:4000'
  
 const httpLink = createHttpLink({
     uri,

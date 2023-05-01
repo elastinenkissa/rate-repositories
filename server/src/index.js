@@ -21,6 +21,4 @@ const startServer = async () => {
   logger.info(`Apollo Server ready at port ${APOLLO_PORT}`);
 };
 
-setTimeout(() => {
-  startServer();
-}, 5000);
+startServer();
