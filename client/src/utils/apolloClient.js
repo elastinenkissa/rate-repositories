@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import { relayStylePagination } from '@apollo/client/utilities';
 
-const uri = 'http://192.168.0.14:4000'
+const uri = 'http://rate-repositories-api.onrender.com'
  
 const httpLink = createHttpLink({
     uri,

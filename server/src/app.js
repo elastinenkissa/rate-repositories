@@ -38,6 +38,7 @@ app.use(errorHandler());
 app.use(morgan("combined", { stream: logStream }));
 
 app.use(async (ctx, next) => {
+  ctx.set("Access-Control-Allow-Origin", "*");
   ctx.dataLoaders = createDataLoaders();
   await next();
 });
