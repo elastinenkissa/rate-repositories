@@ -43,7 +43,9 @@ app.use(async (ctx, next) => {
   await next();
 });
 
-app.use(cors());
+app.use(
+  cors({ origin: "http://rate-repositories-api.onrender.com/api/repositories" })
+);
 
 const apiRouter = new Router();
 
